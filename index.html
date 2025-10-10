@@ -18,22 +18,22 @@
     
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper" itemscope itemtype="https://schema.org/Person">
             <header>
-                <h1>Élina Morel</h1>
-                <h2>Architecte d’intérieur</h2>
-                <img src="images.jpg" alt="photo">
+                <h1 itemprop="name">Élina Morel</h1>
+                <h2 itemprop="jobTitle">Architecte d’intérieur</h2>
+                <img src="images.jpg" alt="photo" itemprop="image">
                 <h4>Informations complémentaires :</h4>
                 <ul>
-                    <li>Adresse : Paris, France</li>
-                    <li>Age: 25 ans</li>
-                    <li>Email : elina.morel@gmail.com</li>
-                    <li>Nationalité : Française</li>
+                    <li><span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Adresse : <span itemprop="addressLocality">Paris</span>, <span itemprop="addressCountry">France</span></span></li>
+                    <li>Age: <span itemprop="age">25 ans</span></li>
+                    <li>Email : <a href="mailto:elina.morel@gmail.com" itemprop="email">elina.morel@gmail.com</a></li>
+                    <li>Nationalité : <span itemprop="nationality">Française</span></li>
                 </ul>
             </header>
         <hr>
 
-        <article>
+        <article itemprop="description">
             Architecte d’intérieur créative et rigoureuse, avec plus de 10 ans d’expérience dans la conception et la réalisation d’espaces résidentiels, 
             commerciaux et culturels. Ma démarche repose sur l’écoute,
             l’élégance fonctionnelle, et une attention particulière à la lumière, aux matériaux durables et aux détails. Je conçois des lieux uniques qui 
