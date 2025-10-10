@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #7f8c8d;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #34495e;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 1em;
+    list-style-type: square;
+}
+
+
+dl {
+    padding-left: 20px;
+    margin-bottom: 1em;
+}
+
+dt {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+article {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 5px solid #3498db;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #bc631a;
+}
+
+
+header img {
+    width: 120px;
+    height: auto;
+    margin-left: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+header {
+    position: relative;
+}
+
+
+footer svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: fill 0.3s ease;
+}
+
+footer a:hover svg {
+    fill: #bc631a;
+}
