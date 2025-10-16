@@ -18,101 +18,130 @@
     
 </head>
 <body>
-    <div id="wrapper" itemscope itemtype="https://schema.org/Person">
-            <header>
-                <h1 itemprop="name">Élina Morel</h1>
-                <h2 itemprop="jobTitle">Architecte d’intérieur</h2>
-                <img src="images.jpg" alt="photo" itemprop="image">
-                <h4>Informations complémentaires :</h4>
-                <ul>
-                    <li><span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Adresse : <span itemprop="addressLocality">Paris</span>, <span itemprop="addressCountry">France</span></span></li>
-                    <li>Age: <span itemprop="age">25 ans</span></li>
-                    <li>Email : <a href="mailto:elina.morel@gmail.com" itemprop="email">elina.morel@gmail.com</a></li>
-                    <li>Nationalité : <span itemprop="nationality">Française</span></li>
-                </ul>
-            </header>
-        <hr>
+    <div class="page-container">
+        <div id="wrapper" itemscope itemtype="https://schema.org/Person">
+        
+                <header>
+                    <h1 itemprop="name">Élina Morel</h1>
+                    <h2 itemprop="jobTitle">Architecte d’intérieur</h2>
+                    <img src="images.jpg" alt="photo" itemprop="image">
+                    <h4>Informations complémentaires :</h4>
+                    <ul>
+                        <li><span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Adresse : <span itemprop="addressLocality">Paris</span>, <span itemprop="addressCountry">France</span></span></li>
+                        <li>Age: <span itemprop="age">25 ans</span></li>
+                        <li>Email : <a href="mailto:elina.morel@gmail.com" itemprop="email">elina.morel@gmail.com</a></li>
+                        <li>Nationalité : <span itemprop="nationality">Française</span></li>
+                    </ul>
+                </header>
+            <hr>
 
-        <article itemprop="description">
-            Architecte d’intérieur créative et rigoureuse, avec plus de 10 ans d’expérience dans la conception et la réalisation d’espaces résidentiels, 
-            commerciaux et culturels. Ma démarche repose sur l’écoute,
-            l’élégance fonctionnelle, et une attention particulière à la lumière, aux matériaux durables et aux détails. Je conçois des lieux uniques qui 
-            racontent une histoire.
-        </article>
-        <hr>
+            <article itemprop="description">
+                Architecte d’intérieur créative et rigoureuse, avec plus de 10 ans d’expérience dans la conception et la réalisation d’espaces résidentiels, 
+                commerciaux et culturels. Ma démarche repose sur l’écoute,
+                l’élégance fonctionnelle, et une attention particulière à la lumière, aux matériaux durables et aux détails. Je conçois des lieux uniques qui 
+                racontent une histoire.
+            </article>
+            <hr>
 
-       
-        <h4>Formation :</h4>
-        <dl>
-            <dt>2018 - 2021</dt>
-            <dd>Diplôme d’Architecte d’intérieur – École Supérieure des Arts Modernes (ESAM), Paris</dd>
+        
+            <h4>Formation :</h4>
+            <dl id="formation-section">
+                <dt>
+                    2018 - 2021
+                    <button class="formation-detail-btn">+</button>
+                </dt>
+                <dd>
+                    Diplôme d’Architecte d’intérieur – École Supérieure des Arts Modernes (ESAM), Paris
+                </dd>
+                <dd class="formation-detail">
+                    Spécialisation en aménagement d’espaces publics et privés. Projets réalisés avec des matériaux durables et respectueux de l’environnement.
+                </dd>
 
-            <dt>2016 - 2018</dt>
-            <dd>BTS Design d’Espace – Lycée Auguste Renoir, Paris</dd>
+                <dt>
+                    2016 - 2018
+                    <button class="formation-detail-btn">+</button>
+                </dt>
+                <dd>
+                    BTS Design d’Espace – Lycée Auguste Renoir, Paris
+                </dd>
+                <dd class="formation-detail">
+                    Formation orientée vers la conception d'espaces fonctionnels et esthétiques. Nombreux projets collectifs et maquettes à l’échelle.
+                </dd>
 
-            <dt>2016</dt>
-            <dd>Baccalauréat STD2A – Sciences et Technologies du Design et des Arts Appliqués</dd>
-        </dl>
-        <hr>
+                <dt>
+                    2015 - 2016
+                    <button class="formation-detail-btn">+</button>
+                </dt>
+                <dd>
+                    Baccalauréat STD2A – Sciences et Technologies du Design et des Arts Appliqués
+                </dd>
+                <dd class="formation-detail">
+                    Études axées sur la culture artistique et la conception. Développement des bases en dessin technique et design.
+                </dd>
+            </dl>
 
-        <h4>Compétences :</h4>
-        <dl>
-            <dt>Logiciels de conception</dt>
-            <dd>AutoCAD, SketchUp, Revit, ArchiCAD</dd>
+            <hr>
+            <h4>Compétences :</h4>
+            <dl id="competences-section">
+            <dt class="comp-item" data-desc="Conception d’espaces à l’aide de AutoCAD, SketchUp, Revit, ArchiCAD.">
+                Logiciels de conception
+            </dt>
+            <dt class="comp-item" data-desc="Création de rendus photoréalistes avec V-Ray, Lumion, Twinmotion.">
+                Rendus 3D
+            </dt>
+            <dt class="comp-item" data-desc="Graphismes & visuels avec Photoshop, Illustrator, InDesign.">
+                Graphisme
+            </dt>
+            <dt class="comp-item" data-desc="Gestion de projet : planification, suivi, relation client.">
+                Gestion de projet
+            </dt>
+            </dl>
 
-            <dt>Rendus 3D</dt>
-            <dd>V-Ray, Lumion, Twinmotion</dd>
+            <hr>
 
-            <dt>Graphisme</dt>
-            <dd>Photoshop, Illustrator, InDesign</dd>
+            <h4>Langues :</h4>
+            <ul>
+                <li>Français : Langue maternelle</li>
+                <li>Anglais : Niveau C1</li>
+                <li>Espagnol : Niveau B1</li>
+            </ul>
+            <hr>
 
-            <dt>Gestion de projet</dt>
-            <dd>Planification, suivi de chantier, relation client</dd>
+            <h4>Loisirs :</h4>
+            <ul>
+                <li>Voyages culturels</li>
+                <li>Photographie d’architecture</li>
+                <li>Design durable</li>
+                <li>Lecture de revues d’art et d’architecture</li>
+            </ul>
+            <hr>
 
-            
-        </dl>
-        <hr>
+            <footer>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M224 248a120 120 0 1 1 0-240 120 120 0 1 1 0 240zm-30.5 56l61 0c9.7 0 17.5 7.8 17.5 17.5 0 4.2-1.5 8.2-4.2 11.4l-27.4 32 31 115.1 .6 0 34.6-138.5c2.2-8.7 11.1-14 19.5-10.8 61.9 23.6 105.9 83.6 105.9 153.8 0 15.1-12.3 27.4-27.4 27.4L43.4 512c-15.1 0-27.4-12.3-27.4-27.4 0-70.2 44-130.2 105.9-153.8 8.4-3.2 17.3 2.1 19.5 10.8l34.6 138.5 .6 0 31-115.1-27.4-32c-2.7-3.2-4.2-7.2-4.2-11.4 0-9.7 7.8-17.5 17.5-17.5z"/>
+                    </svg>
+                    Portfolio</a>
 
-        <h4>Langues :</h4>
-        <ul>
-            <li>Français : Langue maternelle</li>
-            <li>Anglais : Niveau C1</li>
-            <li>Espagnol : Niveau B1</li>
-        </ul>
-        <hr>
+                <a href="#">
+                    <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 448 512">
+                    <path d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z"/>
+                    </svg>
+                    LinkedIn</a>
 
-        <h4>Loisirs :</h4>
-        <ul>
-            <li>Voyages culturels</li>
-            <li>Photographie d’architecture</li>
-            <li>Design durable</li>
-            <li>Lecture de revues d’art et d’architecture</li>
-        </ul>
-        <hr>
-
-        <footer>
-            <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M224 248a120 120 0 1 1 0-240 120 120 0 1 1 0 240zm-30.5 56l61 0c9.7 0 17.5 7.8 17.5 17.5 0 4.2-1.5 8.2-4.2 11.4l-27.4 32 31 115.1 .6 0 34.6-138.5c2.2-8.7 11.1-14 19.5-10.8 61.9 23.6 105.9 83.6 105.9 153.8 0 15.1-12.3 27.4-27.4 27.4L43.4 512c-15.1 0-27.4-12.3-27.4-27.4 0-70.2 44-130.2 105.9-153.8 8.4-3.2 17.3 2.1 19.5 10.8l34.6 138.5 .6 0 31-115.1-27.4-32c-2.7-3.2-4.2-7.2-4.2-11.4 0-9.7 7.8-17.5 17.5-17.5z"/>
-                </svg>
-                Portfolio</a>
-
-            <a href="#">
-                <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                viewBox="0 0 448 512">
-                <path d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z"/>
-                </svg>
-                LinkedIn</a>
-
-            <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                viewBox="0 0 512 512">
-                <path d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z"/>
-                </svg>
-                Contact</a>
-        </footer>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 512 512">
+                    <path d="M160.2 25C152.3 6.1 131.7-3.9 112.1 1.4l-5.5 1.5c-64.6 17.6-119.8 80.2-103.7 156.4 37.1 175 174.8 312.7 349.8 349.8 76.3 16.2 138.8-39.1 156.4-103.7l1.5-5.5c5.4-19.7-4.7-40.3-23.5-48.1l-97.3-40.5c-16.5-6.9-35.6-2.1-47 11.8l-38.6 47.2C233.9 335.4 177.3 277 144.8 205.3L189 169.3c13.9-11.3 18.6-30.4 11.8-47L160.2 25z"/>
+                    </svg>
+                    Contact</a>
+            </footer>
+        </div>
     </div>
+
+    <script src="JS/script.js"></script>
     
 </body>
 </html>

@@ -13,4 +13,5 @@
 https://marwamentak.github.io/Mon_CV-/
 
 ##  Résultat
+![Capture d'écran du résultat](resultatCV.png)
 
