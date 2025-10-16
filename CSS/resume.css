@@ -218,3 +218,22 @@ footer a:hover svg {
   color: #ccc;
 }
 
+
+
+canvas {
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+#competences {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
