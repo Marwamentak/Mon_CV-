@@ -193,3 +193,28 @@ footer a:hover svg {
 .tooltip-box.show {
   opacity: 1;
 }
+
+
+
+
+#auto-eval {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#auto-eval li {
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #333;
+}
+
+#auto-eval .star {
+  color: gold;
+  margin-left: 3px;
+}
+
+#auto-eval .star.empty {
+  color: #ccc;
+}
+
