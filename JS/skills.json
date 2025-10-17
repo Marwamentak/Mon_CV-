@@ -1,0 +1,8 @@
+{
+  "competences": [
+    { "nom": "Logiciels de conception", "note": 4 },
+    { "nom": "Rendus 3D", "note": 3 },
+    { "nom": "Graphisme", "note": 5 },
+    { "nom": "Gestion de projet", "note": 2 }
+  ]
+}
